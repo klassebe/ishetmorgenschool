@@ -1,0 +1,18 @@
+{{ $options := (dict "targetPath" "css/style.css" "outputStyle" "compressed" "enableSourceMap" true) }}
+{{ $style := resources.Get "sass/style.scss" | resources.ToCSS $options }}
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> {{ .Params.title }} </title>
+      <script src="{{ "/js/vendor/jquery-3.4.1.min.js" | relURL }}"></script>
+      <script src="{{ "/js/vendor/moment.min.js" | relURL }}" ></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/nl-be.js"></script>
+      <script src="{{ "/js/app.js" | relURL }}"></script>
+      <link href="https://fonts.googleapis.com/css?family=Lato|Passion+One&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="{{ $style.Permalink }}">
+    </head>
+    <body>
+		{{ block "main" .}}
+		{{ end }}
+    </body>
+</html>

@@ -1,0 +1,71 @@
+[
+    {   
+        "icon": "🏝",
+        "name": "zomervakantie",
+        "start": "2019-07-01",
+        "end": "2019-08-31"
+    },
+
+
+    {
+        "icon": "🍁",
+        "name": "herfstvakantie",
+        "start": "2019-10-28",
+        "end": "2019-11-03"
+    },
+
+    {
+        "icon": "🕊",
+        "name": "Wapenstilstand",
+        "start": "2019-11-11",
+        "end": "2019-11-11"
+    },
+
+    {
+        "icon": "⛄️",
+        "name": "Kerstvakantie",
+        "start": "2019-12-23",
+        "end": "2020-01-05"
+    },
+
+    {
+        "name": "krokusvakantie",
+        "start": "2020-02-24",
+        "end": "2020-03-01"
+    },
+
+    {
+        "icon": "🗿",
+        "name": "Paasvakantie",
+        "start": "2020-04-06",
+        "end": "2020-06-19"
+    },
+
+    {
+        "icon": "💪",
+        "name": "Dag van de Arbeid",
+        "start": "2020-05-01",
+        "end": "2020-05-01"
+    },
+
+    {
+        "icon": "👼",
+        "name": "Hemelvaart",
+        "start": "2020-05-21",
+        "end": "2020-05-22"
+    },
+
+    {
+        "icon": "🔥",
+        "name": "Pinkstermaandag",
+        "start": "2020-06-01",
+        "end": "2020-06-01"
+    },
+
+    {
+        "icon": "🏝",
+        "name": "Zomervakantie",
+        "start": "2020-07-01",
+        "end": "2020-08-31"
+    }
+]
